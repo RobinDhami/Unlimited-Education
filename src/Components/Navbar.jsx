@@ -1,36 +1,69 @@
-
-
+import { useState } from "react";
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <div className='font-[Poppins] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen'>
-      <header className='bg-white'>
-        <nav className="flex justify-between items-center w-[92%]  mx-auto">
-            <div className="">
-             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt=".." className="w-16 cursor-pointer"></img>
-            </div>
-            <div className="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
-            <ul>
+    <header className="bg-black rounded-sm border-none shadow-slate-200">
+      <nav className=" flex justify-between items-center w-[92%] mx-auto lg:h-20 h-20 ">
+        <div>
+          <img
+            className="w-16 cursor-pointer"
+            src="https://i.pinimg.com/originals/91/53/93/9153939d7544582c1fd8c692b626958d.png"
+            
+          />
+        </div>
+        <div
+          className={`nav-links duration-500 md:static absolute  md:min-h-fit min-h-[60vh] 
+          left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}
+        >
+          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
-            <a className="hover:text-gray-500" href="#">Products</a>
-        </li>
-        <li>
-            <a className="hover:text-gray-500" href="#">Solution</a>
-        </li>
-        <li>
-            <a className="hover:text-gray-500" href="#">Resource</a>
-        </li>
-        <li>
-            <a className="hover:text-gray-500" href="#">Developers</a>
-        </li>
-        <li>
-            <a className="hover:text-gray-500" href="#">Pricing</a>
-        </li>
-            </ul>
-            </div>
-        </nav>
-      </header>
-    </div>
-  )
+              <a className="text-white hover:text-gray-500" href="#">
+                Products
+              </a>
+            </li>
+            <li>
+              <a className="text-white hover:text-gray-500" href="#">
+                Solution
+              </a>
+            </li>
+            <li>
+              <a className="text-white hover:text-gray-500" href="#">
+                Resource
+              </a>
+            </li>
+            <li>
+              <a className="text-white hover:text-gray-500" href="#">
+                Developers
+              </a>
+            </li>
+            <li>
+              <a className="text-white hover:text-gray-500" href="#">
+                Pricing
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="flex items-center gap-6">
+          <button
+            className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]"
+            onClick={toggleMenu}
+          >
+            Sign in
+          </button>
+          <ion-icon
+            onClick={toggleMenu}
+            name={isMenuOpen ? 'close' : 'menu'}
+            className="text-3xl cursor-pointer lg:hidden "
+            style={{ color: 'white' }}></ion-icon>
+        </div>
+      </nav>
+    </header>
+  );
 }
 
-export default Navbar
+export default Navbar;
