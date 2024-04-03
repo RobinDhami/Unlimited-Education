@@ -1,7 +1,7 @@
 
 const Hero= () => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center bg-gray-50 overflow-hidden">
+    <div className="relative w-full h-full flex flex-col justify-center items-center bg-gray-50 overflow-hidden " id="hero">
 
       <div className="pt-10 sm:pt-20 lg:pt-16 lg:h-[86vh] w-full flex flex-col lg:flex-row">
         {/* :HERO MAIN */}
@@ -15,7 +15,7 @@ const Hero= () => {
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row items-center">
               <button className="m-1.5 py-2.5 px-5 rounded-md bg-yellow-300 text-white font-semibold uppercase hover:bg-yellow-400">Start your journey</button>
-              <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-gray-300 text-gray-400 font-semibold uppercase hover:text-yellow-400 hover:border-teal-400">Take a test drive</button>
+              <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-gray-300 text-gray-400 font-semibold uppercase hover:text-yellow-400 hover:border-yellow-400">Learn More of Us</button>
             </div>
           </div>
         </div>

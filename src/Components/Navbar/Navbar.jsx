@@ -24,12 +24,12 @@ function Navbar() {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
-              <a className="text-black text-lg hover:text-white" href="#">
+              <a className="text-black text-lg hover:text-white" href="#hero">
                 Home
               </a>
             </li>
             <li>
-              <a className="text-black text-lg hover:text-white" href="#">
+              <a className="text-black text-lg hover:text-white" href="#services">
                 Services
               </a>
             </li>
