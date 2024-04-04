@@ -3,7 +3,7 @@ const Hero= () => {
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center bg-gray-50 overflow-hidden " id="hero">
 
-      <div className="pt-10 sm:pt-20 lg:pt-16 lg:h-[86vh] w-full flex flex-col lg:flex-row">
+      <div className="pt-0 sm:pt-10 lg:pt-16 lg:h-[86vh] w-full flex flex-col lg:flex-row">
         {/* :HERO MAIN */}
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center text-gray-600"> {/* Container */}
           {/* ::Hero Inner */}
