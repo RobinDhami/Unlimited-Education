@@ -8,7 +8,7 @@ export function Contact() {
           <Typography
             variant="h1"
             color="blue-gray"
-            className="mb-4 !text-3xl lg:!text-5xl"
+            className="mb-4 !text-3xl lg:!text-5xl text-red-500"
           >
             Contact &apos;Us 
           </Typography>

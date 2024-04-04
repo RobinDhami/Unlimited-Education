@@ -56,7 +56,7 @@ function Navbar() {
             onClick={toggleMenu}
             name={isMenuOpen ? 'close' : 'menu'}
             className="text-3xl cursor-pointer lg:hidden sm:block"
-            style={{ color: 'white' }}
+            style={{ color: 'black' }}
           ></ion-icon>
         </div>
       </nav>
