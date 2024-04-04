@@ -34,7 +34,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="text-black text-lg hover:text-white" href="#">
+              <a className="text-black text-lg hover:text-white" href="#About">
                 About
               </a>
             </li>

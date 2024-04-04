@@ -16,6 +16,21 @@ function ServiceSection() {
       imageUrl: 'https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg',
       description: 'Description for Service 3',
     },
+    {
+        title: 'United States',
+        imageUrl: 'https://thumbs.dreamstime.com/b/university-students-sitting-together-table-books-laptop-happy-young-people-doing-group-study-library-130491501.jpg',
+        description: 'Description for Service 1',
+      },
+      {
+        title: 'Germany',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq15DgkPvUBeH7u-K3odYIYMPieIh9qzEQmED7IREMvQ&s',
+        description: 'Description for Service 2',
+      },
+      {
+        title: 'Australia',
+        imageUrl: 'https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg',
+        description: 'Description for Service 3',
+      }
   ];
 
   return (
