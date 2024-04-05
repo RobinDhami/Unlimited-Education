@@ -1,7 +1,7 @@
 
 const Hero= () => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center bg-gray-50 overflow-hidden " id="hero">
+    <div className="relative w-full h-full flex flex-col justify-center items-center bg-gradient-to-r from-[#F9A11B] to-[#CE2027] overflow-hidden " id="hero">
 
       <div className="pt-0 sm:pt-10 lg:pt-16 lg:h-[86vh] w-full flex flex-col lg:flex-row">
         {/* :HERO MAIN */}
@@ -9,13 +9,13 @@ const Hero= () => {
           {/* ::Hero Inner */}
           <div className="p-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             {/* Hero Title */}
-            <h1 className="py-10 text-3xl sm:text-5xl font-light tracking-wide leading-tight">Discover Your <br/>Dream,Destination <br/>Success Awaits You.</h1>
+            <h1 className="py-10 text-3xl sm:text-5xl text-white font-xl tracking-wide leading-tight">Discover Your <br/>Dream,Destination <br/>Success Awaits You.</h1>
             {/* Starting Price */}
-            <p className="text-lg font-semibold text-gray-400 tracking-wide">We provide you with the best Deal</p>
+            <p className="text-lg font-semibold text-white tracking-wide">We provide you with the best Deal</p>
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row items-center">
               <button className="m-1.5 py-2.5 px-5 rounded-md bg-yellow-300 text-white font-semibold uppercase hover:bg-yellow-400">Start your journey</button>
-              <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-gray-300 text-gray-400 font-semibold uppercase hover:text-yellow-400 hover:border-yellow-400">Learn More of Us</button>
+              <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-white text-white font-semibold uppercase hover:text-yellow-400 hover:border-yellow-400">Learn More of Us</button>
             </div>
           </div>
         </div>

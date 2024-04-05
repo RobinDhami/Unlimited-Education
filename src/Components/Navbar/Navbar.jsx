@@ -8,12 +8,12 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-gradient-to-r from-yellow-400 to-red-600 rounded-sm border-none shadow-md">
+    <header className="bg-white rounded-sm border-none shadow-md">
       <nav className="flex justify-between items-center w-11/12 mx-auto lg:h-20 h-20">
         <div>
           <img
             className="w-16 cursor-pointer"
-            src="https://i.pinimg.com/originals/91/53/93/9153939d7544582c1fd8c692b626958d.png"
+            src="https://www.ued.ai/static/media/logo.2a0fc8f25f44df9934e2.png"
             alt="Logo"
           />
         </div>
@@ -24,22 +24,22 @@ function Navbar() {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
-              <a className="text-black text-lg hover:text-white" href="#hero">
+              <a className="text-black text-lg hover:text-[#F9A11B]" href="#hero">
                 Home
               </a>
             </li>
             <li>
-              <a className="text-black text-lg hover:text-white" href="#services">
+              <a className="text-black text-lg hover:text-[#F9A11B]" href="#services">
                 Services
               </a>
             </li>
             <li>
-              <a className="text-black text-lg hover:text-white" href="#About">
+              <a className="text-black text-lg hover:text-[#F9A11B]" href="#About">
                 About
               </a>
             </li>
             <li>
-              <a className="text-black text-lg hover:text-white" href="#Contact">
+              <a className="text-black text-lg hover:text-[#F9A11B]" href="#Contact">
                 Contact
               </a>
             </li>
