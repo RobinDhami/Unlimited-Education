@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./Navbar.css"
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-white rounded-sm border-none shadow-md">
+    <header className="bg-gray-300 rounded-sm border-none shadow-md">
       <nav className="flex justify-between items-center w-11/12 mx-auto lg:h-20 h-20">
         <div>
           <img
@@ -24,13 +24,14 @@ function Navbar() {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
-              <a className="text-black text-lg hover:text-[#F9A11B]" href="#hero">
-                Home
-              </a>
+            <a className="text-black text-lg transition duration-300 ease-in-out transform hover:text-[#F9A11B] hover:scale-105" href="#hero">
+            Home
+        </a>
+        
             </li>
             <li>
               <a className="text-black text-lg hover:text-[#F9A11B]" href="#services">
-                Services
+                Programs
               </a>
             </li>
             <li>
@@ -47,7 +48,7 @@ function Navbar() {
         </div>
         <div className="flex items-center gap-6">
           <button
-            className="bg-yellow-400 text-black px-5 py-2 rounded-full hover:bg-yellow-500"
+            className="bg-[#F9A11B] text-black px-5 py-2 rounded-full hover:bg-red-500"
             onClick={toggleMenu}
           >
             Sign in

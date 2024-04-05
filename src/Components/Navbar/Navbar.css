@@ -1,0 +1,10 @@
+
+  
+  .nav-links ul li a {
+    transition: color 0.3s ease; /* Smooth transition for link color */
+  }
+  
+  .nav-links ul li a:hover {
+    color: #f9a11b; /* Change link color on hover */
+  }
+  

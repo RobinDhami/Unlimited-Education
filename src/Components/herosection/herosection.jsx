@@ -14,9 +14,11 @@ const Hero= () => {
             <p className="text-lg font-semibold text-white tracking-wide">We provide you with the best Deal</p>
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row items-center">
-              <button className="m-1.5 py-2.5 px-5 rounded-md bg-yellow-300 text-white font-semibold uppercase hover:bg-yellow-400">Start your journey</button>
-              <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-white text-white font-semibold uppercase hover:text-yellow-400 hover:border-yellow-400">Learn More of Us</button>
-            </div>
+            <button className="m-1.5 py-2.5 px-5 rounded-md bg-yellow-300 text-white font-semibold uppercase transition duration-300 ease-in-out transform hover:scale-105">Start your journey</button>
+            <button className="m-1.5 py-2.5 px-5 rounded-md border-2 border-white text-white font-semibold uppercase transition duration-300 ease-in-out hover:text-yellow-400 hover:border-yellow-400 hover:scale-105">Learn More of Us</button>
+        </div>
+        
+        
           </div>
         </div>
         {/* :HERO ILLUSTRATION */}
