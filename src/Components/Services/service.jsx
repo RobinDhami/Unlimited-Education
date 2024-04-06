@@ -3,18 +3,18 @@ import React from 'react';
 function ServiceSection() {
   const services = [
     {
-      title: 'United States',
-      imageUrl: 'https://www.thestatesman.com/wp-content/uploads/2020/09/QT-Indian-students.jpg',
+      title: 'Programming',
+      imageUrl: 'https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/07/Screen-Shot-2022-07-11-at-11.36.48-AM.png',
       description: 'Description for Service 1',
     },
     {
-      title: 'Germany',
-      imageUrl: 'https://images.shiksha.com/mediadata/images/articles/1693247327php9Ixvyk.jpeg',
+      title: 'Robotics',
+      imageUrl: 'https://www.teachkidsrobotics.com/wp-content/uploads/2021/12/flickr_StephenChin_CCBY20.jpg',
       description: 'Description for Service 2',
     },
     {
-      title: 'Australia',
-      imageUrl: 'https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg',
+      title: 'Globalizatio',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_E6vG97mr7q5kx-SEVZz7B6f7MqtXFGoPMpUc6AQXkA&s',
       description: 'Description for Service 3',
     },
     {
