@@ -5,7 +5,7 @@ function ServiceSection() {
     {
       title: 'Programming',
       imageUrl: 'https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/07/Screen-Shot-2022-07-11-at-11.36.48-AM.png',
-      description: 'Description for Service 1',
+      description: 'At UED, we're passionate about empowering the next generation with essential programming skills. Through our Programming Education Partnership, we collaborate with schools to offer comprehensive programming courses tailored to students of all ages. Our expert instructors guide students through hands-on learning experiences, teaching fundamental concepts and cutting-edge technologies. From coding basics to advanced software development, we provide engaging curriculum and resources to ignite curiosity and foster innovation. Join us in preparing students for success in the digital age with our dynamic programming education program.',
     },
     {
       title: 'Robotics',
