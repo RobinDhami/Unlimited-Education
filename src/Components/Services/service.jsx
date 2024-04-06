@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { useState } from "react";
 function ServiceSection() {
    const [showFullDescription, setShowFullDescription] = useState(false);
 
@@ -51,7 +50,11 @@ function ServiceSection() {
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
               <img src={service.imageUrl} alt={service.title} className="w-full h-56 object-cover rounded-t-lg" />
-             {showFullDescription ? service.description : `${service.description.slice(0, 150)}...`}
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-red-600 mb-2">{service.title}</h3>
+                {/* Conditional rendering of description */}
+                <p className="text-gray-600">
+                  {showFullDescription ? service.description : `${service.description.slice(0, 150)}...`}
                 </p>
                 {/* Render toggle button only if description is longer than 4-5 lines */}
                 {service.description.length > 150 && (
@@ -59,6 +62,7 @@ function ServiceSection() {
                     {showFullDescription ? 'Read Less' : 'Read More'}
                   </button>
                 )}
+              </div>
             </div>
           ))}
         </div>
