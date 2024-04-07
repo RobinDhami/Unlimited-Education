@@ -35,7 +35,7 @@ function ServiceSection() {
     {
       title: 'Sports',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq15DgkPvUBeH7u-K3odYIYMPieIh9qzEQmED7IREMvQ&s',
-      description: 'Description for Service 2',
+      description: 'Sports not only promote physical fitness but also instill important values such as teamwork, discipline, and resilience. Our Sports Program provides students with the opportunity to develop both their athletic skills and character, setting them up for success both on and off the field.',
     },
     {
       title: 'Parent Teacher Training',
