@@ -30,7 +30,7 @@ function ServiceSection() {
     {
       title: 'Culture and Arts',
       imageUrl: 'https://thumbs.dreamstime.com/b/university-students-sitting-together-table-books-laptop-happy-young-people-doing-group-study-library-130491501.jpg',
-      description: 'Description for Service 1',
+      description: 'Sports not only promote physical fitness but also instill important values such as teamwork, discipline, and resilience. Our Sports Program provides students with the opportunity to develop both their athletic skills and character, setting them up for success both on and off the field',
     },
     {
       title: 'Sports',
@@ -40,7 +40,7 @@ function ServiceSection() {
     {
       title: 'Parent Teacher Training',
       imageUrl: 'https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg',
-      description: 'Description for Service 3',
+      description: 'Sports not only promote physical fitness but also instill important values such as teamwork, discipline, and resilience. Our Sports Program provides students with the opportunity to develop both their athletic skills and character, setting them up for success both on and off the field',
     }
   ];
 
