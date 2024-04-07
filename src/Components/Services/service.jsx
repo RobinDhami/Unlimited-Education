@@ -20,12 +20,12 @@ function ServiceSection() {
     {
       title: 'Robotics',
       imageUrl: 'https://www.teachkidsrobotics.com/wp-content/uploads/2021/12/flickr_StephenChin_CCBY20.jpg',
-      description: 'Description for Service 2',
+      description: 'Prepare your child for the future with our dynamic Robotics Education Program. At [School Name], we offer an immersive learning experience that combines hands-on activities with cutting-edge technology. Our expert instructors guide students through the exciting world of robotics, fostering creativity, problem-solving skills, and teamwork. Through engaging projects and competitions, students gain practical experience and confidence in STEM fields. Join us and empower your child to become a confident innovator in the digital age',
     },
     {
-      title: 'Globalizatio',
+      title: 'Globalization',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_E6vG97mr7q5kx-SEVZz7B6f7MqtXFGoPMpUc6AQXkA&s',
-      description: 'Description for Service 3',
+      description: 'we believe in the power of diversity and connection. Our Global Student Community offers a unique opportunity for students to broaden their perspectives and forge friendships with peers from around the world. Through virtual exchanges, collaborative projects, and cultural events, students can engage in meaningful dialogue, learn about different cultures, and work together to address global challenges. Join us and be part of a vibrant community where curiosity knows no bounds and the world becomes your classroom.',
     },
     {
       title: 'United States',
@@ -58,8 +58,8 @@ function ServiceSection() {
                   {showFullDescription ? service.description : `${service.description.slice(0, 150)}...`}
                 </p>
                 {/* Render toggle button only if description is longer than 4-5 lines */}
-                {service.description.length > 150 && (
-                  <button onClick={toggleDescription} className="mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                {service.description && (
+                <button onClick={toggleDescription} className="mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                     {showFullDescription ? 'Read Less' : 'Read More'}
                   </button>
                 )}
