@@ -28,17 +28,17 @@ function ServiceSection() {
       description: 'we believe in the power of diversity and connection. Our Global Student Community offers a unique opportunity for students to broaden their perspectives and forge friendships with peers from around the world. Through virtual exchanges, collaborative projects, and cultural events, students can engage in meaningful dialogue, learn about different cultures, and work together to address global challenges. Join us and be part of a vibrant community where curiosity knows no bounds and the world becomes your classroom.',
     },
     {
-      title: 'United States',
+      title: 'Culture and Arts',
       imageUrl: 'https://thumbs.dreamstime.com/b/university-students-sitting-together-table-books-laptop-happy-young-people-doing-group-study-library-130491501.jpg',
       description: 'Description for Service 1',
     },
     {
-      title: 'Germany',
+      title: 'Sports',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq15DgkPvUBeH7u-K3odYIYMPieIh9qzEQmED7IREMvQ&s',
       description: 'Description for Service 2',
     },
     {
-      title: 'Australia',
+      title: 'Parent Teacher Training',
       imageUrl: 'https://www.savethestudent.org/uploads/Woman-student-graduate-university-cambridge-money-pound-signs-cash.jpg',
       description: 'Description for Service 3',
     }
