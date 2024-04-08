@@ -608,15 +608,16 @@ const About1 = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="sm:mt-1 lg:mt-0">
                 <span className="block mb-4 mt-5  text-3xl font-bold text-primary">
-                  Why Choose Us
+                  Why Choose Us ???
                 </span>
                 <h2 className=" mb-5  text-2xl font-bold text-dark dark:text-red-500 sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                Empowering Students, Embracing Innovation, Inspiring Leadership: Choose UED Unlimited Education for Your Path to Success!
                 </h2>
                 <p className="mb-5 text-base   text-body-color dark:text-dark-6">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                At UED Unlimited Education, we are committed to revolutionizing the educational experience.
+                 With a team of dedicated experts and educators, we ensure the highest quality of instruction tailored to each student's needs. 
+                 Our innovative approach leverages cutting-edge technology and personalized learning methods to provide unparalleled educational outcomes. Backed by a track record of success and satisfied students, we guarantee exceptional value and results. 
+                Whether you're seeking academic enrichment, exam preparation, or skill development, choose UED Unlimited Education for a transformative educational journey that unlocks your full potential.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
                   A domain name is one of the first steps to establishing your
