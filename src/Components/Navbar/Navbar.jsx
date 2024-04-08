@@ -53,12 +53,7 @@ function Navbar() {
           >
             Sign in
           </button>
-          <ion-icon
-            onClick={toggleMenu}
-            name={isMenuOpen ? 'close' : 'menu'}
-            className="text-3xl cursor-pointer lg:hidden sm:block"
-            style={{ color: 'black' }}
-          ></ion-icon>
+          
         </div>
       </nav>
     </header>

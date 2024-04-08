@@ -611,7 +611,7 @@ const About1 = () => {
                   Why Choose Us ???
                 </span>
                 <h2 className=" mb-5  text-2xl font-bold text-dark dark:text-red-500 sm:text-[40px]/[48px]">
-                Empowering Students, Embracing Innovation, Inspiring Leadership: Choose UED Unlimited Education for Your Path to Success!
+                Empowering Students, Embracing Innovation, Inspiring Leadership
                 </h2>
                 <p className="mb-5 text-base   text-body-color dark:text-dark-6">
                 At UED Unlimited Education, we are committed to revolutionizing the educational experience.

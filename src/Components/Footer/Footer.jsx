@@ -26,10 +26,10 @@ const Footer = () => {
   ];
   // JSX structure of the footer
   return (
-    <div className='bg-gradient-to-r from-yellow-400 to-red-600 mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='bg-gradient-to-r from-yellow-400 to-red-600 mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white'>
       {/* Left section with brand and social icons */}
       <div>
-        <h1 className='w-full text-3xl lg:text-4xl xl:text-5xl font-bold text-[#54EDEA]'>INFA GATEWAY.</h1>
+        <h1 className='w-full text-3xl lg:text-4xl xl:text-5xl font-bold text-white'>Unlimited Education</h1>
         <p className='py-4'>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.
         </p>
@@ -48,7 +48,7 @@ const Footer = () => {
         {items.map((item, index) => (
           item.type === 'section' ? (
             <div key={index}>
-              <h6 className="font-medium text-gray-100 text-xl">{item.title}</h6>
+              <h6 className="font-medium text-white text-xl">{item.title}</h6>
               <ul>
                 {/* Mapping over items in each section */}
                 {item.items.map((subItem, subIndex) => (
