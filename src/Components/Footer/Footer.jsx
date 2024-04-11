@@ -1,7 +1,5 @@
 import {
-  FaDribbbleSquare,
   FaFacebookSquare,
-  FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
 } from 'react-icons/fa';
@@ -16,8 +14,7 @@ const Footer = () => {
     { type: 'icon', icon: FaFacebookSquare },
     { type: 'icon', icon: FaInstagram },
     { type: 'icon', icon: FaTwitterSquare },
-    { type: 'icon', icon: FaGithubSquare },
-    { type: 'icon', icon: FaDribbbleSquare },
+   
     // Footer sections
     { type: 'section', title: 'Solutions', items: ['Analytics', 'Marketing', 'Commerce', 'Insights'] },
     { type: 'section', title: 'Support', items: ['Pricing', 'Documentation', 'Guides', 'API Status'] },
@@ -33,7 +30,7 @@ const Footer = () => {
         <p className='py-4'>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.
         </p>
-        <div className='flex justify-between md:w-[75%] my-6'>
+        <div className='flex justify-evenly md:w-[75%] my-6'>
           {/* Mapping over social icons and rendering the SocialIcon component */}
           {items.map((item, index) => (
             item.type === 'icon' ? (

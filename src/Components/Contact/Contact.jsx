@@ -10,7 +10,7 @@ export function Contact() {
             color="blue-gray"
             className="mb-4 !text-3xl lg:!text-5xl text-red-500"
           >
-            Contact &apos;Us 
+            Contact Us 
           </Typography>
           <Typography className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
             Whether it&apos;s a question about our services, a request for

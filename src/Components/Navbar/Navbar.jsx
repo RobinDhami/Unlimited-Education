@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-gray-300 rounded-sm border-none shadow-md">
+    <header className="bg-gray-200 rounded-sm border-none shadow-md">
       <nav className="flex justify-between items-center w-11/12 mx-auto lg:h-20 h-20">
         <div>
           <img
@@ -48,10 +48,10 @@ function Navbar() {
         </div>
         <div className="flex items-center gap-6">
           <button
-            className="bg-[#F9A11B] text-black px-5 py-2 rounded-full hover:bg-red-500"
+            className="bg-yellow-300 text-black px-5 py-2 rounded-lg hover:bg-yellow-400"
             onClick={toggleMenu}
           >
-            Our Activity
+            Activity
           </button>
           
         </div>
