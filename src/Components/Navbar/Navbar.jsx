@@ -51,7 +51,7 @@ function Navbar() {
             className="bg-[#F9A11B] text-black px-5 py-2 rounded-full hover:bg-red-500"
             onClick={toggleMenu}
           >
-            Sign in
+            Our Activity
           </button>
           
         </div>

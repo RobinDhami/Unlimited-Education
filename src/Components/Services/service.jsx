@@ -1,10 +1,18 @@
-import { useState } from "react";
-function ServiceSection() {
-   const [showFullDescription, setShowFullDescription] = useState(false);
+import React, { useState } from "react";
 
-  // Function to toggle showFullDescription state
-  const toggleDescription = () => {
-    setShowFullDescription(!showFullDescription);
+function ServiceSection() {
+  // Define state to keep track of which card's description is expanded
+  const [expandedCardIndex, setExpandedCardIndex] = useState(null);
+
+  // Function to toggle the description of a card
+  const toggleDescription = (index) => {
+    if (expandedCardIndex === index) {
+      // If the clicked card is already expanded, collapse it
+      setExpandedCardIndex(null);
+    } else {
+      // Otherwise, expand the clicked card
+      setExpandedCardIndex(index);
+    }
   };
   const services = [
     {
@@ -53,16 +61,14 @@ function ServiceSection() {
               <img src={service.imageUrl} alt={service.title} className="w-full h-56 object-cover rounded-t-lg" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-red-600 mb-2">{service.title}</h3>
-                {/* Conditional rendering of description */}
+                {/* Conditional rendering of description based on expandedCardIndex */}
                 <p className="text-gray-600">
-                  {showFullDescription ? service.description : `${service.description.slice(0, 150)}...`}
+                  {expandedCardIndex === index ? service.description : `${service.description.slice(0, 150)}...`}
                 </p>
-                {/* Render toggle button only if description is longer than 4-5 lines */}
-                {service.description && (
-                <button onClick={toggleDescription} className="mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                    {showFullDescription ? 'Read Less' : 'Read More'}
-                  </button>
-                )}
+                {/* Render toggle button */}
+                <button onClick={() => toggleDescription(index)} className="mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  {expandedCardIndex === index ? 'Read Less' : 'Read More'}
+                </button>
               </div>
             </div>
           ))}

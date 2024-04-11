@@ -615,9 +615,9 @@ const About1 = () => {
                 </h2>
                 <p className="mb-5 text-base   text-body-color dark:text-dark-6">
                 At UED Unlimited Education, we are committed to revolutionizing the educational experience.
-                 With a team of dedicated experts and educators, we ensure the highest quality of instruction tailored to each student's needs. 
+                 With a team of dedicated experts and educators, we ensure the highest quality of instruction tailored to each students needs. 
                  Our innovative approach leverages cutting-edge technology and personalized learning methods to provide unparalleled educational outcomes. Backed by a track record of success and satisfied students, we guarantee exceptional value and results. 
-                Whether you're seeking academic enrichment, exam preparation, or skill development, choose UED Unlimited Education for a transformative educational journey that unlocks your full potential.
+                Whether youre seeking academic enrichment, exam preparation, or skill development, choose UED Unlimited Education for a transformative educational journey that unlocks your full potential.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
                   A domain name is one of the first steps to establishing your
