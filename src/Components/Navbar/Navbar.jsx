@@ -42,7 +42,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-6">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfF4HeAF2cjxPe9hjoi3HqRN8ctWYAkivfWNu-Rg8GUeXPAKw/viewform?usp=sf_link">
+          <a href="https://forms.gle/C5v4mTypyy2sAkgUA">
           <button
             className="bg-yellow-300 text-black px-5 py-2 rounded-lg hover:bg-yellow-400"  
           >

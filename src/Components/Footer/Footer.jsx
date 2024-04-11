@@ -18,7 +18,7 @@ const Footer = () => {
     // Footer sections
     { type: 'section', title: 'Solutions', items: ['Analytics', 'Marketing', 'Commerce', 'Insights'] },
     { type: 'section', title: 'Support', items: ['Pricing', 'Documentation', 'Guides', 'API Status'] },
-    { type: 'section', title: 'Company', items: ['About', 'Blog', 'Jobs', 'Press', 'Careers'] },
+    { type: 'section', title: 'Company', items: ['About', 'Blog', 'Jobs', 'Press'] },
     { type: 'section', title: 'Legal', items: ['Claim', 'Policy', 'Terms'] },
   ];
   // JSX structure of the footer

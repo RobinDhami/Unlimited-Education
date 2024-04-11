@@ -9,9 +9,9 @@ const Hero= () => {
           {/* ::Hero Inner */}
           <div className="p-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             {/* Hero Title */}
-            <h1 className="py-10 text-3xl sm:text-5xl text-white font-xl tracking-wide leading-tight">Discover Your <br/>Dream,Destination <br/>Success Awaits You.</h1>
+            <h1 className="py-10 text-3xl sm:text-5xl text-white font-xl tracking-wide leading-tight">Learning Today,<br/>Leading Tomorrow</h1>
             {/* Starting Price */}
-            <p className="text-lg font-semibold text-white tracking-wide">We provide you with the best Deal</p>
+            <p className="text-lg font-semibold text-white tracking-wide">We aim to deliver unlimited education for all.</p>
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row items-center">
             <button className="m-1.5 py-2.5 px-5 rounded-md bg-yellow-300 text-white font-semibold uppercase transition duration-300 ease-in-out transform hover:scale-105">Start your journey</button>

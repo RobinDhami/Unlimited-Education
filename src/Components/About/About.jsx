@@ -614,15 +614,11 @@ const About1 = () => {
                 Empowering Students, Embracing Innovation, Inspiring Leadership
                 </h2>
                 <p className="mb-5 text-base   text-body-color dark:text-dark-6">
-                At UED Unlimited Education, we are committed to revolutionizing the educational experience.
-                 With a team of dedicated experts and educators, we ensure the highest quality of instruction tailored to each students needs. 
-                 Our innovative approach leverages cutting-edge technology and personalized learning methods to provide unparalleled educational outcomes. Backed by a track record of success and satisfied students, we guarantee exceptional value and results. 
-                Whether youre seeking academic enrichment, exam preparation, or skill development, choose UED Unlimited Education for a transformative educational journey that unlocks your full potential.
+                UED is an educational institution and Ed-Tech platform which provides unlimited education for all. We offer academic and alternative courses of different fields as well as research and innovation space.
+                 <br/>Our mission is to democratize the access to education, training and research in different fields to create unlimited opportunities for all people around the world, so they can contribute to make a sustainable socioeconomic development and positive impact in the planet.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                Our vision is to create a better world with peace, prosperity, inclusion, and positivity through unlimited access to education, training and research which provides equal opportunities for all.
                 </p>
                 <a
                   href="#Contact"

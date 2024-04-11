@@ -13,9 +13,11 @@ export function Contact() {
             Contact Us 
           </Typography>
           <Typography className="mb-10 font-normal !text-lg lg:mb-10 mx-auto max-w-3xl !text-gray-500" >
-            Whether it&apos;s a question about our services, a request for
-            technical assistance, or suggestions for improvement, our team is
-            eager to hear from you.
+          Fulfil the application
+          form with your School
+          information . Our expert team
+          will study it and contact
+          you very soon
           </Typography>
           <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start" >
             <iframe
