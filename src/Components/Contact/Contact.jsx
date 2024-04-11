@@ -3,21 +3,21 @@ import { Button, Input, Textarea, Typography } from "@material-tailwind/react";
 export function Contact() {
     return (
       <section className="px-8  lg:py-16">
-        <div className="container mx-auto text-center" id="Contact">
+        <div className="container mx-auto text-center" >
          
-          <Typography
+          <Typography id="Contact"
             variant="h1"
             color="blue-gray"
             className="mb-4 !text-3xl lg:!text-5xl text-red-500"
           >
             Contact Us 
           </Typography>
-          <Typography className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
+          <Typography className="mb-10 font-normal !text-lg lg:mb-10 mx-auto max-w-3xl !text-gray-500" >
             Whether it&apos;s a question about our services, a request for
             technical assistance, or suggestions for improvement, our team is
             eager to hear from you.
           </Typography>
-          <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
+          <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start" >
             <iframe
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.451194583915!2d85.33163827419483!3d27.73422617616716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19addb24c4f9%3A0x1e5fbe2bdffed944!2sInvest%20%26%20Infra%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1712212513626!5m2!1sen!2snp"

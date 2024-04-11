@@ -610,7 +610,7 @@ const About1 = () => {
                 <span className="block mb-4 mt-5  text-3xl font-bold text-primary">
                   Why Choose Us ???
                 </span>
-                <h2 className=" mb-5  text-2xl font-bold text-dark dark:text-red-500 sm:text-[40px]/[48px]">
+                <h2 className=" mb-5  text-2xl font-bold text-dark  bg-gradient-to-r from-yellow-400 to-pink-500 text-transparent bg-clip-text sm:text-[40px]/[48px]">
                 Empowering Students, Embracing Innovation, Inspiring Leadership
                 </h2>
                 <p className="mb-5 text-base   text-body-color dark:text-dark-6">
@@ -625,7 +625,7 @@ const About1 = () => {
                   matches your business.
                 </p>
                 <a
-                  href="javascript:void(0)"
+                  href="#Contact"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-red-500 border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
                 >
                   Get Started
