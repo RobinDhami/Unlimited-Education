@@ -1,11 +1,6 @@
-import { useState } from "react";
 import "./Navbar.css"
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  
 
   return (
     <header className="bg-gray-200 rounded-sm border-none shadow-md">
@@ -19,8 +14,8 @@ function Navbar() {
         </div>
 
         <div
-          className={`nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] 
-          left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}
+          className="nav-links  md:static absolute md:min-h-fit min-h-[60vh] 
+          left-0  md:w-auto lg:flex lg:items-center px-5"
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
@@ -47,12 +42,13 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-6">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfF4HeAF2cjxPe9hjoi3HqRN8ctWYAkivfWNu-Rg8GUeXPAKw/viewform?usp=sf_link">
           <button
-            className="bg-yellow-300 text-black px-5 py-2 rounded-lg hover:bg-yellow-400"
-            onClick={toggleMenu}
+            className="bg-yellow-300 text-black px-5 py-2 rounded-lg hover:bg-yellow-400"  
           >
-            Activity
+            Enroll Now
           </button>
+          </a>
           
         </div>
       </nav>
