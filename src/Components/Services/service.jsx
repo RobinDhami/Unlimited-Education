@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 function ServiceSection() {
   // Define state to keep track of which card's description is expanded
@@ -54,8 +54,8 @@ function ServiceSection() {
 
   return (
     <div className="bg-white py-12" id="services">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="  max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-wrap w-[30%] gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
               <img src={service.imageUrl} alt={service.title} className="w-full h-56 object-cover rounded-t-lg" />
