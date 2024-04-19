@@ -1,6 +1,7 @@
 import "./Navbar.css"
+import { useNavigate } from "react-router-dom";
 function Navbar() {
-  
+  const navigate = useNavigate();
 
   return (
     <header className="bg-gray-200 rounded-sm border-none shadow-md">
@@ -42,13 +43,15 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-6">
-          <a href="https://forms.gle/C5v4mTypyy2sAkgUA">
-          <button
+          
+          <button onClick={()=>{
+            navigate("form")
+          }}
             className="bg-yellow-300 text-black px-5 py-2 rounded-lg hover:bg-yellow-400"  
           >
             Enroll Now
           </button>
-          </a>
+         
           
         </div>
       </nav>
