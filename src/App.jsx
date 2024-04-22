@@ -1,25 +1,23 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/herosection/herosection";
-import Service from "./Components/Services/service";
-import About1 from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+// import { useState } from "react";
+import { BrowserRouter, Routes ,Route} from 'react-router-dom';
+
+import Bundle from "./bundle";
+import Form from "./Components/Activity/form"; 
 
 function App() {
+  // const [showForm, setShowForm] = useState(false); 
+
+
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Hero/>
-        <Service/>
-        <About1/>
-        <Contact/>
-          
-        
-        <Footer />
-      </div>
-    </Router>
+    <div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Bundle/>} /> 
+    <Route path="/form" element={<Form/>}  />
+     </Routes>
+    </BrowserRouter>
+     
+    </div>
   );
 }
 
