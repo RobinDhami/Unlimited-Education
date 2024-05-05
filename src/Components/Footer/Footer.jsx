@@ -23,7 +23,7 @@ const Footer = () => {
   ];
   // JSX structure of the footer
   return (
-    <div className='bg-gradient-to-r from-yellow-400 to-red-600 mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white'>
+    <div className='bg-gradient-to-r from-yellow-400 to-red-600 mx-auto py-8 px-4 grid lg:grid-cols-3 gap-8 text-white'>
       {/* Left section with brand and social icons */}
       <div>
         <h1 className='w-full text-3xl lg:text-4xl xl:text-5xl font-bold text-white'>Unlimited Education</h1>
