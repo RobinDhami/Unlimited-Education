@@ -1,5 +1,4 @@
 // Navbar.jsx
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {  useNavigate } from "react-router-dom";
 
@@ -9,14 +8,12 @@ function Navbar() {
     <header className="bg-gray-200 rounded-sm border-none shadow-md">
       <nav className="flex justify-between items-center w-11/12 mx-auto lg:h-20 h-20">
         <div>
-          < a href="#hero">
+         
           <img
             className="w-16 cursor-pointer"
             src="https://www.ued.ai/static/media/logo.2a0fc8f25f44df9934e2.png"
             alt="Logo"
           />
-          </a>
-         
         </div>
 
         <div
