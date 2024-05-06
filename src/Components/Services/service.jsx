@@ -18,8 +18,8 @@ function ServiceSection() {
       description: 'Prepare your child for the future with our dynamic Robotics Education Program. At [School Name], we offer an immersive learning experience that combines hands-on activities with cutting-edge technology. Our expert instructors guide students through the exciting world of robotics.',
     },
     {
-      url:'/global',
-      title: 'Globalization',
+      url:'/Language',
+      title: 'Language',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_E6vG97mr7q5kx-SEVZz7B6f7MqtXFGoPMpUc6AQXkA&s',
       description: 'Prepare your child for the future with our dynamic Robotics Education Program. At [School Name], we offer an immersive learning experience that combines hands-on activities with cutting-edge technology. Our expert instructors guide students through the exciting world of robotics.',
     },
